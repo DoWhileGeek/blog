@@ -1,17 +1,17 @@
 # Site settings
-title: Clean Blog
+title: DoWhileGeek
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
+email: dowhilegeek@gmail.com
 description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: "/startbootstrap-clean-blog-jekyll"
-url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
+baseurl: ""
+url: "http://dowhilegeek.com"
+twitter_username: dowhilegeek
+github_username:  dowhilegeek
 
 # Build settings
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
 paginate: 5
+gems: ["jekyll-paginate"]
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
