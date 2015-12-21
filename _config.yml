@@ -1,7 +1,7 @@
 # Site settings
 title: DoWhileGeek
 copyright: Joeseph Rodrigues
-header-img: img/home-bg.jpg
+header-img: img/default.png
 email: dowhilegeek@gmail.com
 description: "Joeseph Rodrigues' personal tech blog."
 baseurl: ""
