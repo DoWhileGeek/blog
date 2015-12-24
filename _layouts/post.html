@@ -28,6 +28,8 @@ layout: default
 				{{ content }}
 
                 <hr>
+                {% include comments.html %}
+                <hr>
 
                 <ul class="pager">
                     {% if page.previous.url %}
