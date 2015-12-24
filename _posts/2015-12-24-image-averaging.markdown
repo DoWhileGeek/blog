@@ -4,12 +4,6 @@ title:      "Reducing render noise through image averaging"
 date:       2014-12-24 12:12:00
 ---
 
-<strike><p>Depending on your hardware setup, and the image you want to achieve,
-producing a low noise rendering can be very time consuming. You may try to
-use a render farm service like <a href="https://www.sheepit-renderfarm.com/">Sheep It</a>,
-which has single frame support, but even then there are still quite a few limitations to
-the quality of image you can achieve.</p></strike>
-
 <p>Physical rendering is heavy, And I'm not talking about problems with the
 Earth's gravitational pull. I'm talking about processing power, and time needed
 to create a beautiful rendering on a single node. It often puts me in a
