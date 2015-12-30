@@ -18,7 +18,7 @@ data of every pixel across many images, it will even out the noise, and given en
 can get a pretty good looking image.</p>
 
 <p>I wrote a proof of concept command line application called <i>Imgavg</i> (<a
-href="https://github.com/DoWhileGeek/imgavg/" target="_blank">fork me on
+href="https://github.com/DoWhileGeek/imgavg/" target="_blank">Check it out on 
 github</a>) to test the effectiveness of my theory. In my tests, using a renderfarm and Imgavg
 resulted in as much as a 14x speedup over rendering on my machine alone. Images available below for results.
 I found it also works entertainingly well with completely random images,
