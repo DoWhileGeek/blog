@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Reducing render noise through image averaging"
-date:       2014-12-24 12:12:00
+date:       2015-12-24 12:12:00
 ---
 
 <p>Physical rendering is heavy, And I'm not talking about problems with the
