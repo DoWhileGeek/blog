@@ -29,4 +29,4 @@ as long as all the images are the same dimensions.
 <span class="caption muted-text">Left: 1 frame, 40 samples. Right: 250 merged frames, 40 samples each.</span>
 </p>
 
-<p>Credit for the groot bust goes to <a href="http://www.thingiverse.com/Doodle_Monkey" target="_blank">Doodle_Monkey</a> on <a href="http://www.thingiverse.com/thing:478806/" target="_blank">Thingiverse</a>.
+<p>Credit for the groot bust goes to <a href="http://www.thingiverse.com/Doodle_Monkey" target="_blank">Doodle_Monkey</a> on <a href="http://www.thingiverse.com/thing:478806/" target="_blank">Thingiverse</a>.</p>
