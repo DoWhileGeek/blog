@@ -1,9 +1,9 @@
 backend:
   name: github
   repo: dowhilegeek/blog
-  branch: gatsby-publish # Branch to update (optional; defaults to master)
+  branch: gatsby # Branch to update (optional; defaults to master)
 
-media_folder: "images/uploads"
+media_folder: "static/images"
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
