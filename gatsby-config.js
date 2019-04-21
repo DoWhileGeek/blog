@@ -6,6 +6,13 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/pages/blog`,
+        name: "markdown-pages",
+      },
+    },
+    {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
         enableIdentityWidget: true,
