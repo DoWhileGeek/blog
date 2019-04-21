@@ -1,9 +1,8 @@
 import React from "react"
 import { graphql } from "gatsby"
-
 import Paper from '@material-ui/core/Paper'
-// import CardActions from '@material-ui/core/CardActions'
-// import Button from '@material-ui/core/Button'
+
+import styles from '../styles/blogTemplate.module.scss'
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -13,8 +12,8 @@ export default function Template({
   const { title, date } = frontmatter
 
   return (
-    <div style={s.container} className="blog-post-container">
-      <Paper style={s.paper} elevation={4}>
+    <div className={styles.container}>
+      <Paper className={styles.paper} elevation={4}>
         <h1>{title}</h1>
         <h3>{date}</h3>
         <div
@@ -24,18 +23,6 @@ export default function Template({
       </Paper>
     </div>
   )
-}
-
-const s = {
-  container: {
-    padding: '20px',
-    margin: '0 auto',
-    width: '80%'
-  },
-
-  paper: {
-    padding: '20px',
-  }
 }
 
 export const pageQuery = graphql`
