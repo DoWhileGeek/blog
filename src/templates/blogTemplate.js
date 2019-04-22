@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import Paper from '@material-ui/core/Paper'
 
 import styles from '../styles/blogTemplate.module.scss'
+import Layout from '../components/layout'
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -12,8 +13,8 @@ export default function Template({
   const { title, date } = frontmatter
 
   return (
-    <div className={styles.container}>
-      <Paper className={styles.paper} elevation={4}>
+    <Layout>
+      <Paper className={styles.paper}>
         <h1>{title}</h1>
         <h3>{date}</h3>
         <div
@@ -21,7 +22,7 @@ export default function Template({
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </Paper>
-    </div>
+    </Layout>
   )
 }
 
